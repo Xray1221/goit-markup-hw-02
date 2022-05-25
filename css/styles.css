@@ -1,0 +1,79 @@
+:root {
+    --active-color: #2196F3;
+    --white-color: #FFFFFF;
+    --general-text-color: #212121;
+  }
+body { 
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
+    color: var(--general-text-color);
+}
+/* Header */
+.logo {   
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.2;
+    font-family: 'Raleway', sans-serif; 
+    color: var(--general-text-color);
+    text-decoration: none;
+}
+.logo-web {
+    color: var(--active-color);
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: var(--general-text-color);
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--active-color);
+}
+.contact-link {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--active-color);
+}
+/* Main */
+.btn-filter {
+    color: var(--general-text-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+    color: var(--white-color);
+    background-color: var(--active-color);
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--general-text-color);
+}
+.portfolio-category {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #757575;
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--white-color);
+}
