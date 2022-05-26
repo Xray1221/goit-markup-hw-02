@@ -15,11 +15,17 @@ body {
     font-size: 26px;
     line-height:1.2;
     font-family: 'Raleway', sans-serif; 
-    color: var(--general-text-color);
+    color: var(--active-color);
     text-decoration: none;
 }
 .logo-web {
-    color: var(--active-color);
+    color: var(--general-text-color);
+}
+.logo-web-footer {
+    color: var(--white-color);
+}
+.list {
+    list-style: none;
 }
 .nav-link {
     font-weight: 500;
@@ -50,6 +56,7 @@ body {
     line-height: 1.35;
     color: var(--white-color);
     background-color: #2F303A;
+    text-transform: uppercase;
 }
 .btn-service {
     color: var(--white-color);
@@ -57,13 +64,15 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    font-family: inherit;
+    line-height: 1.875;   
 }
 .btn-filter {
     color: var(--general-text-color);
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
+    font-family: inherit;
     line-height: 1.625;
 }
 .btn-filter:hover,
@@ -76,6 +85,7 @@ body {
     font-size: 14px;
     line-height: 1.15;
     color: var(--general-text-color);
+    text-transform: uppercase;
 }
 .portfolio-title {
     font-weight: 700;
@@ -126,6 +136,7 @@ body {
 .address {
     font-weight: 400;
     font-size: 14px;
+    font-style: normal;
     line-height: 1.7;
     color: var(--white-color);
 }
